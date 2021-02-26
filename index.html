@@ -3,7 +3,47 @@
 <body>
   <p>Перед скриптом...</p>
   <script>
-    alert( 'Привет, мир!' );
+  
+
+  function httpGet(theUrl){
+    var russianChannels = [];
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+    xmlHttp.send( null );
+    var mydata = JSON.parse(xmlHttp.responseText);
+
+    //Сортировка, только русские телеканалы
+
+    mydata.forEach(function(object) {
+     	if(object.languages[0].name.toString() == "Russian"){
+        russianChannels.push(JSON.stringify(object));
+     	}
+	  });
+
+    slide(generateTxtFile(russianChannels));
+    return xmlHttp.responseText;
+  }
+
+
+function generateTxtFile(text){
+    var textFile = null;
+    var data = new Blob([text], {type: 'text/json'}); 
+    if (textFile !== null) {  
+      window.URL.revokeObjectURL(textFile);  
+    }  
+    textFile = window.URL.createObjectURL(data); 
+    console.log(textFile); 
+    return textFile; 
+  }
+
+ function slide(href) {
+  location.href=href
+}
+
+
+
+	window.httpGet("https://iptv-org.github.io/iptv/channels.json");
+
   </script>
   <p>...После скрипта.</p>
 </body>
