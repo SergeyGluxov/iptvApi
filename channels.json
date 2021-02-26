@@ -90949,7 +90949,7 @@
   },
   {
     "name": "Первый канал",
-    "logo": null,
+    "logo": "https://i.imgur.com/iW5vhkb.png",
     "url": "http://51.68.141.106:8081/tv/pervyiy-kanal/playlist.m3u8",
     "category": null,
     "languages": [
