@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html>
 <body>
-  <p>Перед скриптом...</p>
   <script>
   
 
@@ -37,7 +36,10 @@ function generateTxtFile(text){
   }
 
  function slide(href) {
-  location.href=href
+   var xmlHttp = new XMLHttpRequest();
+    xmlHttp.open( "GET", href, false ); // false for synchronous request
+    xmlHttp.send( null );
+  console.log(xmlHttp.responseText); 
 }
 
 
@@ -45,6 +47,5 @@ function generateTxtFile(text){
 	window.httpGet("https://iptv-org.github.io/iptv/channels.json");
 
   </script>
-  <p>...После скрипта.</p>
 </body>
 </html>
