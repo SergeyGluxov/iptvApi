@@ -36,10 +36,13 @@ function generateTxtFile(text){
   }
 
  function slide(href) {
-   var xmlHttp = new XMLHttpRequest();
+  window.downloadFile = function(href) {
+    window.open(sUrl, '_self');
+}
+ /*  var xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", href, false ); // false for synchronous request
     xmlHttp.send( null );
-  console.log(xmlHttp.responseText); 
+  console.log(xmlHttp.responseText); */
 }
 
 
