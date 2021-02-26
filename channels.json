@@ -91959,100 +91959,9 @@
             "url": "https://iptvx.one/epg/epg.xml.gz"
         }
     },
-    {
-        "name": "Рен ТВ",
-        "logo": null,
-        "url": "http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8",
-        "category": null,
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
-    {
-        "name": "Рен ТВ",
-        "logo": null,
-        "url": "http://iptv.ktkru.ru:8011/index.m3u8",
-        "category": null,
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
-    {
-        "name": "Рен ТВ",
-        "logo": null,
-        "url": "https://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/playlist.m3u8",
-        "category": null,
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
+
     {
         "name": "Рен ТВ HD",
-        "logo": null,
-        "url": "http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8",
-        "category": null,
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
-    {
-        "name": "Рен ТВ International",
         "logo": null,
         "url": "http://sc.id-tv.kz/RenTV_36_37.m3u8",
         "category": null,
@@ -92074,52 +91983,7 @@
             "url": "https://iptvx.one/epg/epg.xml.gz"
         }
     },
-    {
-        "name": "Рен ТВ International",
-        "logo": null,
-        "url": "https://sc.id-tv.kz/RenTV.m3u8",
-        "category": "Movies",
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
-    {
-        "name": "Рен ТВ International",
-        "logo": null,
-        "url": "https://sc.id-tv.kz/RenTV_38_39.m3u8",
-        "category": null,
-        "languages": [
-            {
-                "code": "rus",
-                "name": "Russian"
-            }
-        ],
-        "countries": [
-            {
-                "code": "ru",
-                "name": "Russia"
-            }
-        ],
-        "tvg": {
-            "id": null,
-            "name": null,
-            "url": "https://iptvx.one/epg/epg.xml.gz"
-        }
-    },
+
     {
         "name": "Репортер",
         "logo": "http://reporter.odessa.ua/wp-content/uploads/2017/05/logo_retina-300x99.png",
