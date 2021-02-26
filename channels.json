@@ -93873,7 +93873,7 @@
     {
         "name": "ТВ 3",
         "logo": null,
-        "url": "http://iptv.ktkru.ru:8015/index.m3u8",
+        "url": "http://51.195.44.53:8081/tv/tv3/playlist.m3u8",
         "category": null,
         "languages": [
             {
